@@ -1,0 +1,23 @@
+env: moea
+
+env_args:
+  key: M_2_46_3
+  budget_ratio: 100
+  wo_obs: False
+  seed: 2022
+  baseline: False
+  adaptive_open: True
+  early_stop: False
+  ban_agent: 4 # 0,1,2,3 , if not , means no ban
+  reward_type: 0 # 0 is Triangles, 1,2 is DEDDQN
+
+
+gamma: 0.99
+test_greedy: True
+test_nepisode: 10
+test_interval: 20000
+log_interval: 20000
+runner_log_interval: 5000
+learner_log_interval: 5000
+t_max: 405000 # 400K
+batch_size_run: 12

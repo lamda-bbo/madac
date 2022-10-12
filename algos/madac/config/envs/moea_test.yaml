@@ -1,0 +1,30 @@
+env: moea
+
+env_args:
+  key: WFG6_3
+  budget_ratio: 100
+  wo_obs: False
+  seed: 2022
+  baseline: False
+  adaptive_open: True
+  early_stop: False
+  replay: True
+  ban_agent: 4 # 0,1,2,3 , if not , means no
+  reward_type: 0 # 0 is Triangles, 1 is DEDDQN
+
+
+evaluate: True
+save_replay: True
+test_nepisode: 30
+gamma: 0.99
+test_greedy: True
+test_interval: 5000
+log_interval: 5000
+runner_log_interval: 1000
+learner_log_interval: 1000
+t_max: 205000 # 200K
+batch_size_run: 1
+use_tensorboard: False
+use_cuda: False
+checkpoint_path: "./results/madac/models/vdn_ns_seed2022_rnnFalse_ban4_R0_M_2_46_3_2022-10-12 11:12:17.972811"
+load_step: 3600

@@ -1,0 +1,19 @@
+env: sigmoid_state
+
+env_args:
+  key: Sigmoid
+  n_steps: 10
+  n_agents: 5
+  n_actions: 3
+  seed: 2022
+
+
+gamma: 0.99
+test_greedy: True
+test_nepisode: 10
+test_interval: 5000
+log_interval: 5000
+runner_log_interval: 1000
+learner_log_interval: 1000
+t_max: 1050000 # 100K
+batch_size_run: 1
