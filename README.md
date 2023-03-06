@@ -2,7 +2,7 @@
 
 Official implementation of NeurIPS 2022 paper *Multi-agent Dynamic Algorithm Configuration*. 
 
-
+![madac-moead](https://user-images.githubusercontent.com/19886779/223071807-ac073cdf-5e14-41f6-a2c9-0a7e2a71e8e6.png)
 
 
 ## Installation
