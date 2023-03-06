@@ -1,6 +1,9 @@
 # Multi-agent Dynamic Algorithm Configuration
 
-Official implementation of *Multi-agent Dynamic Algorithm Configuration*.
+Official implementation of NeurIPS 2022 paper *Multi-agent Dynamic Algorithm Configuration*. 
+
+
+
 
 ## Installation
 
@@ -67,6 +70,9 @@ The command to test the corresponding model on all problems is
 ```
 python algos/dac/test_dqn.py --key M_2_46_3
 ```
+
+## Poster
+![madac-poster-mla](https://user-images.githubusercontent.com/19886779/223068774-00f9c1e2-8851-45d9-b199-c3490834853a.png)
 
 ## License
 
